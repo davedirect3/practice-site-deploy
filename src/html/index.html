@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Journey Starter Page</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional custom styling for the body */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+    </style>
+</head>
+<body class="min-h-screen antialiased text-gray-800">
+
+    <!-- Main Container -->
+    <div class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Header Section -->
+        <header class="text-center py-10 bg-white shadow-lg rounded-xl mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-700 tracking-tight">
+                Welcome to Davis's Devops practice site
+            </h1>
+            <p class="mt-4 text-xl text-gray-500">
+                A simple page demonstrating front-end structure for my cloud-native practice projects.
+            </p>
+        </header>
+
+        <!-- Body Content Section -->
+        <main class="bg-white p-6 sm:p-10 rounded-xl shadow-lg mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-2">
+                The Path to Containerization
+            </h2>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                As you embark on your DevOps journey, mastering **containerization** is crucial. Technologies like Docker and container orchestrators such as Kubernetes (and its enterprise implementation, **OpenShift**) simplify application deployment and scaling. Moving from traditional virtual machines to containers provides consistency across environments—from your local machine to the Azure cloud—eliminating the dreaded "it works on my machine" problem.
+            </p>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                The deployment process you're tackling—using **Azure Red Hat OpenShift**—is a practical demonstration of integrating infrastructure management with application delivery. This hands-on experience in building a CI/CD pipeline and managing the application lifecycle within a cloud environment is the foundation of a successful DevOps career.
+            </p>
+        </main>
+
+        <!-- Image Gallery Section -->
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Key Concepts Visualized</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Image 1: Cloud/Azure -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/1e40af/ffffff?text=Azure+Cloud" alt="Placeholder image representing Azure Cloud services." onerror="this.onerror=null; this.src='https://placehold.co/600x400?text=Azure+Cloud';" loading="lazy">
+                    <div class="p-4">
+                        <p class="text-xl font-semibold text-gray-800">Cloud Infrastructure</p>
+                        <p class="text-sm text-gray-500 mt-1">Azure provides the foundation for your deployment.</p>
+                    </div>
+                </div>
+
+                <!-- Image 2: OpenShift/Kubernetes -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/991b1b/ffffff?text=OpenShift+Cluster" alt="Placeholder image representing a Kubernetes/OpenShift cluster." onerror="this.onerror=null; this.src='https://placehold.co/600x400?text=OpenShift+Cluster';" loading="lazy">
+                    <div class="p-4">
+                        <p class="text-xl font-semibold text-gray-800">Container Orchestration</p>
+                        <p class="text-sm text-gray-500 mt-1">OpenShift manages containerized applications at scale.</p>
+                    </div>
+                </div>
+
+                <!-- Image 3: CI/CD Pipeline -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden transition duration-300 hover:shadow-xl">
+                    <img class="w-full h-48 object-cover" src="https://placehold.co/600x400/065f46/ffffff?text=CI/CD+Pipeline" alt="Placeholder image representing a continuous integration and delivery pipeline." onerror="this.onerror=null; this.src='https://placehold.co/600x400?text=CI/CD+Pipeline';" loading="lazy">
+                    <div class="p-4">
+                        <p class="text-xl font-semibold text-gray-800">Automation Workflow</p>
+                        <p class="text-sm text-gray-500 mt-1">Automating the build, test, and deploy stages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 py-6 text-center text-sm text-gray-500 border-t">
+        &copy; 2025 DevOps Practice. Built with HTML and Tailwind CSS.
+    </footer>
+
+</body>
+</html>
